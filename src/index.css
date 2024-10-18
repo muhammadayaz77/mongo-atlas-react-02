@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial Black', Arial, sans-serif;;
+}
+ 
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.h1{
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    background: linear-gradient(to bottom, #6a0dad, #b57edc); /* Purple gradient from top to bottom */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    background-clip: text; /* For other browsers */
+    color: transparent; 
+  
+}
